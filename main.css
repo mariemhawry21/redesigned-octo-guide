@@ -32,6 +32,27 @@ html {
     --Lightlavender: hsl(241, 100%, 89%);
     --Darkgrayblue: hsl(224, 30%, 27%);
 }
+@media(max-width:720px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+    .two{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .box1,.box2,.box3,.box4{
+        width: 100%;
+    }
+}
 
 body {
     min-height: 100vh;
